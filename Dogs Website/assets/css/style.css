@@ -1,0 +1,2992 @@
+body ul {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: myFont;
+  src: url(../fonts/myriad-pro/MYRIADPRO-REGULAR.OTF);
+}
+body .navbar {
+  padding: 30px 80px;
+  background-attachment: fixed;
+}
+body .navbar .navbar-brand img {
+  height: 100px;
+}
+body .navbar .nav-link {
+  font-size: 20px;
+  color: #0b375c;
+  font-weight: 800;
+}
+body .navbar .nav-item {
+  padding: 0 50px;
+}
+body .white {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  transition: all 0.3s ease;
+  padding: 10px 80px !important;
+}
+body .banner {
+  background-image: url("../images/banner.png");
+  padding: 200px 0 70px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-color: #c5dbed;
+}
+body .banner .text {
+  padding-top: 40px;
+}
+body .banner span {
+  font-size: 100px;
+  font-family: "Bebas Neue", sans-serif;
+}
+body .banner h2 {
+  font-size: 50px;
+  font-family: "Bebas Neue", sans-serif;
+  color: #0b375c;
+}
+body .banner h1 {
+  margin-top: -30px;
+  font-size: 130px;
+  font-family: "Bebas Neue", sans-serif;
+  max-width: 400px;
+  line-height: 100px;
+  color: #0b375c;
+}
+body .banner h3 {
+  font-size: 28px;
+  font-family: "Open Sans", sans-serif;
+  max-width: 350px;
+  line-height: 30px;
+  color: #0b375c;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+body .banner p {
+  font-size: 20px;
+  color: #0b375c;
+  max-width: 500px;
+  font-weight: 700;
+  line-height: 25px;
+  font-family: "Open Sans", sans-serif;
+}
+body .banner .see {
+  font-size: 20px;
+  color: white;
+  background-color: #186cb1;
+  text-decoration: none;
+  padding: 2px 20px;
+  border-radius: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+body .banner .button {
+  padding: 10px 0 0;
+}
+body .we-made {
+  background-color: #eaf6ff;
+  padding: 20px 0 100px;
+}
+body .we-made h1 {
+  font-size: 65px;
+  font-family: "Fredoka", sans-serif;
+  color: #0b375c;
+  max-width: 370px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 60px;
+  margin-top: -150px;
+}
+body .we-made h4 {
+  color: #f9955e;
+  font-family: myFont;
+  font-size: 30px;
+  max-width: 500px;
+  padding-top: 100px;
+  text-transform: uppercase;
+}
+body .we-made h3 {
+  font-size: 33px;
+  color: #0b375c;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  padding: 20px 0 30px;
+  border-bottom: 2px solid #f9955e;
+}
+body .we-made p {
+  color: #0b375c;
+  font-size: 30px;
+  padding: 20px 0;
+  font-family: myFont;
+}
+body .theme {
+  background-image: url("../images/see-more.png");
+  padding: 100px 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #eaf6ff;
+}
+body .theme h1 {
+  font-size: 80px;
+  color: #0b375c;
+  max-width: 800px;
+  font-family: "Bebas Neue", sans-serif;
+  line-height: 80px;
+  padding-bottom: 10px;
+}
+body .theme p {
+  font-size: 20px;
+  color: #0b375c;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  max-width: 230px;
+}
+body .theme .see {
+  font-size: 20px;
+  color: white;
+  background-color: #186cb1;
+  text-decoration: none;
+  padding: 2px 10px;
+  border-radius: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+body .tips {
+  background-image: url("../images/background-3.png");
+  padding: 70px 0 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+body .tips h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+  max-width: 320px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #0b375c;
+  line-height: 40px;
+  padding-bottom: 60px;
+}
+body .tips .img-box {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+body .tips h6 {
+  text-align: center;
+  font-family: "Fredoka", sans-serif;
+  font-size: 22px;
+  color: #0b375c;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+body .tips p {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: #0b375c;
+  max-width: 300px;
+  font-weight: 700;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 70px;
+}
+body .tips h2 {
+  font-size: 60px;
+  max-width: 700px;
+  font-family: "Fredoka", sans-serif;
+  color: #3d9cea;
+  font-weight: 600;
+  letter-spacing: 4px;
+  line-height: 60px;
+}
+body .tips .img-box-2 {
+  margin-top: -150px;
+}
+body .tips .img-box-2 img {
+  height: 600px;
+}
+body .tips .paragraph {
+  font-size: 20px;
+  color: #e88b57;
+  font-weight: 700;
+  max-width: 380px;
+  margin: auto;
+  padding-top: 30px;
+}
+body .tips .images {
+  padding-top: 80px;
+  padding-right: 60px;
+  padding-bottom: 30px;
+}
+body .tips .images img {
+  height: 120px;
+}
+body .tips .images-1 img {
+  height: 120px;
+}
+body .tips .images-1 {
+  padding-right: 60px;
+}
+body .tips .flex {
+  display: flex;
+}
+body .tips .list {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+body .tips h5 {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  color: #0b375c;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+body .tips .list-2 {
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+body .tips .list-3 {
+  padding-top: 40px;
+}
+body .the-best {
+  background-image: url("../images/the-best-2.png");
+  padding: 100px 0;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-color: #c5dbed;
+}
+body .the-best h3 {
+  font-size: 50px;
+  font-family: "Bebas Neue", sans-serif;
+  color: #0b375c;
+}
+body .the-best h1 {
+  font-size: 130px;
+  font-family: "Bebas Neue", sans-serif;
+  color: #0b375c;
+  line-height: 120px;
+  max-width: 500px;
+}
+body .the-best span {
+  font-size: 150px;
+  font-family: "Bebas Neue", sans-serif;
+  color: #0b375c;
+}
+body .the-best h5 {
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  color: #0b375c;
+  font-weight: 700;
+  max-width: 350px;
+}
+body .the-best p {
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  color: #0b375c;
+  font-weight: 700;
+  max-width: 400px;
+  padding: 30px 0 50px;
+  line-height: 30px;
+}
+body .the-best .see {
+  font-size: 20px;
+  color: white;
+  background-color: #186cb1;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+body .prepare {
+  background-color: #eaf6ff;
+  padding: 150px 0;
+  position: relative;
+}
+body .prepare h1 {
+  font-size: 45px;
+  text-align: center;
+  font-family: "Fredoka", sans-serif;
+  color: #3d9cea;
+  max-width: 600px;
+  font-weight: 600;
+  margin: auto;
+  padding-bottom: 100px;
+  letter-spacing: 3px;
+}
+body .prepare h2 {
+  font-size: 30px;
+  color: #3d9cea;
+  font-family: "Fredoka", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 30px 0;
+}
+body .prepare .img-para {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  max-width: 350px;
+  color: #0b375c;
+  font-weight: 700;
+  border-bottom: 2px solid #a398b4;
+  padding-bottom: 40px;
+}
+body .prepare .para {
+  font-size: 45px;
+  line-height: 60px;
+  max-width: 450px;
+  font-family: "Fredoka", sans-serif;
+  color: #0b375c;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+body .prepare .see {
+  font-size: 20px;
+  color: white;
+  background-color: #186cb1;
+  text-decoration: none;
+  padding: 5px 20px;
+  border-radius: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+body .prepare .button {
+  padding: 20px 0 150px;
+}
+body .prepare h5 {
+  font-size: 25px;
+  color: #3d9cea;
+  max-width: 500px;
+  line-height: 30px;
+  text-transform: uppercase;
+  padding: 50px 30px;
+  font-weight: 600;
+  font-family: "Fredoka", sans-serif;
+  padding-left: 200px;
+  margin-top: -100px;
+}
+body .prepare .sub-para {
+  font-size: 28px;
+  font-family: "Open Sans", sans-serif;
+  color: #0b375c;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 2px solid #f9955e;
+  padding-bottom: 20px;
+}
+body .prepare .paragraph {
+  font-size: 30px;
+  padding-top: 10px;
+  color: #0b375c;
+}
+body .prepare .image {
+  padding: 100px;
+}
+body .prepare .box {
+  position: absolute;
+  left: 27%;
+}
+body .prepare .box img {
+  height: 50px;
+}
+body .prepare .box-2 {
+  position: absolute;
+  right: 20%;
+  bottom: 38%;
+}
+body .dog-food {
+  background-image: url("../images/dog-theme.png");
+  padding: 70px 0;
+  background-repeat: no-repeat;
+  background-position: 0 bottom;
+  background-size: cover;
+}
+body .dog-food .img-box img {
+  height: 200px;
+}
+body .dog-food p {
+  font-size: 33px;
+  font-family: "Fredoka", sans-serif;
+  max-width: 700px;
+  padding: 20px 0;
+  color: #0b375c;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+body .footer {
+  background-color: #eaf6ff;
+  padding: 100px 0 10px;
+}
+body .footer .footer-data {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+body .footer .second-section {
+  padding: 100px 0 50px;
+}
+body .footer h1 {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: #1f262f;
+  font-weight: 700;
+}
+body .footer .para {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  color: #1f262f;
+  max-width: 400px;
+  font-weight: 700;
+  padding-bottom: 50px;
+}
+body .footer .img-box img {
+  height: 80px;
+}
+body .footer h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  color: #1f262f;
+  text-align: right;
+}
+body .footer .column {
+  margin-bottom: 0;
+  font-size: 17px;
+  color: #1f262f;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+@media (max-width: 1660px) and (min-width: 1440px) {
+  body .navbar {
+    color: transparent;
+    padding: 30px 80px;
+    position: fixed;
+    width: 100%;
+  }
+  body .navbar .navbar-brand img {
+    height: 80px;
+  }
+  body .navbar .nav-link {
+    font-size: 20px;
+    color: #0b375c;
+    font-weight: 800;
+  }
+  body .navbar .nav-item {
+    padding: 0 40px;
+  }
+  body .banner {
+    background-image: url("../images/banner.png");
+    padding: 200px 0 70px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color: #c5dbed;
+  }
+  body .banner .text {
+    padding-top: 0;
+  }
+  body .banner span {
+    font-size: 100px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: -20px;
+  }
+  body .banner h2 {
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #0b375c;
+  }
+  body .banner h1 {
+    margin-top: -30px;
+    font-size: 110px;
+    font-family: "Bebas Neue", sans-serif;
+    max-width: 400px;
+    line-height: 100px;
+    color: #0b375c;
+  }
+  body .banner h3 {
+    font-size: 23px;
+    font-family: "Open Sans", sans-serif;
+    max-width: 280px;
+    line-height: 30px;
+    color: #0b375c;
+    font-weight: 700;
+    padding-bottom: 20px;
+    margin: 0;
+  }
+  body .banner p {
+    font-size: 18px;
+    color: #0b375c;
+    max-width: 500px;
+    font-weight: 700;
+    line-height: 25px;
+    font-family: "Open Sans", sans-serif;
+  }
+  body .banner .see {
+    font-size: 18px;
+    color: white;
+    background-color: #186cb1;
+    text-decoration: none;
+    padding: 2px 20px;
+    border-radius: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+  }
+  body .banner .button {
+    padding: 10px 0 0;
+  }
+  body .we-made {
+    background-color: #eaf6ff;
+    padding: 20px 0 20px;
+  }
+  body .we-made h1 {
+    font-size: 50px;
+    font-family: "Fredoka", sans-serif;
+    color: #0b375c;
+    max-width: 290px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 50px;
+    margin-top: -150px;
+  }
+  body .we-made h4 {
+    color: #f9955e;
+    font-family: myFont;
+    font-size: 25px;
+    max-width: 500px;
+    padding-top: 50px;
+    text-transform: uppercase;
+  }
+  body .we-made h3 {
+    font-size: 33px;
+    color: #0b375c;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 20px 0 30px;
+    border-bottom: 2px solid #f9955e;
+  }
+  body .we-made p {
+    color: #0b375c;
+    font-size: 25px;
+    padding: 20px 0;
+    font-family: myFont;
+    line-height: 40px;
+    max-width: 500px;
+  }
+  body .theme {
+    background-image: url("../images/see-more.png");
+    padding: 70px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #eaf6ff;
+  }
+  body .theme h1 {
+    font-size: 60px;
+    color: #0b375c;
+    max-width: 600px;
+    font-family: "Bebas Neue", sans-serif;
+    line-height: 60px;
+    padding-bottom: 10px;
+  }
+  body .theme p {
+    font-size: 15px;
+    color: #0b375c;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    max-width: 170px;
+  }
+  body .theme .see {
+    font-size: 15px;
+    color: white;
+    background-color: #186cb1;
+    text-decoration: none;
+    padding: 2px 10px;
+    border-radius: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+  }
+  body .tips {
+    background-image: url("../images/background-3.png");
+    padding: 50px 0 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  body .tips h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    max-width: 320px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #0b375c;
+    line-height: 30px;
+    padding-bottom: 60px;
+  }
+  body .tips .img-box {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  body .tips h6 {
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+    font-size: 18px;
+    color: #0b375c;
+    font-weight: 600;
+    padding-bottom: 10px;
+  }
+  body .tips p {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    color: #0b375c;
+    max-width: 300px;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 70px;
+  }
+  body .tips h2 {
+    font-size: 40px;
+    max-width: 700px;
+    font-family: "Fredoka", sans-serif;
+    color: #3d9cea;
+    font-weight: 600;
+    letter-spacing: 4px;
+    line-height: 40px;
+  }
+  body .tips .img-box-2 {
+    margin-top: -150px;
+  }
+  body .tips .img-box-2 img {
+    height: 600px;
+  }
+  body .tips .paragraph {
+    font-size: 15px;
+    color: #e88b57;
+    font-weight: 700;
+    max-width: 380px;
+    margin: auto;
+    padding-top: 10px;
+  }
+  body .tips .images {
+    padding-top: 50px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+  }
+  body .tips .images img {
+    height: 120px;
+  }
+  body .tips .images-1 img {
+    height: 120px;
+  }
+  body .tips .images-1 {
+    padding-right: 40px;
+  }
+  body .tips .flex {
+    display: flex;
+  }
+  body .tips .list {
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
+  body .tips h5 {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    color: #0b375c;
+    font-weight: 700;
+    padding-bottom: 5px;
+  }
+  body .tips .list-2 {
+    padding-bottom: 30px;
+    padding-top: 10px;
+  }
+  body .tips .list-3 {
+    padding-top: 40px;
+  }
+  body .the-best {
+    background-image: url("../images/the-best-2.png");
+    padding: 100px 0;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-color: #c5dbed;
+  }
+  body .the-best h3 {
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #0b375c;
+  }
+  body .the-best h1 {
+    font-size: 100px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #0b375c;
+    line-height: 120px;
+    max-width: 500px;
+  }
+  body .the-best span {
+    font-size: 100px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #0b375c;
+  }
+  body .the-best h5 {
+    font-size: 28px;
+    font-family: "Open Sans", sans-serif;
+    color: #0b375c;
+    font-weight: 700;
+    max-width: 350px;
+  }
+  body .the-best p {
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+    color: #0b375c;
+    font-weight: 700;
+    max-width: 500px;
+    padding: 30px 0;
+  }
+  body .the-best .see {
+    font-size: 20px;
+    color: white;
+    background-color: #186cb1;
+    text-decoration: none;
+    padding: 2px 10px;
+    border-radius: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+  }
+  body .the-best .text {
+    padding-left: 100px;
+  }
+  body .prepare {
+    background-color: #eaf6ff;
+    padding: 100px 0;
+    position: relative;
+  }
+  body .prepare h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+    color: #3d9cea;
+    max-width: 600px;
+    font-weight: 600;
+    margin: auto;
+    padding-bottom: 100px;
+    letter-spacing: 3px;
+  }
+  body .prepare h2 {
+    font-size: 25px;
+    color: #3d9cea;
+    font-family: "Fredoka", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 20px 0;
+  }
+  body .prepare .img-para {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    max-width: 300px;
+    color: #0b375c;
+    font-weight: 700;
+    border-bottom: 2px solid #a398b4;
+    padding-bottom: 20px;
+  }
+  body .prepare .para {
+    font-size: 40px;
+    line-height: 40px;
+    max-width: 450px;
+    font-family: "Fredoka", sans-serif;
+    color: #0b375c;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  body .prepare .see {
+    font-size: 15px;
+    color: white;
+    background-color: #186cb1;
+    text-decoration: none;
+    padding: 2px 10px;
+    border-radius: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+  }
+  body .prepare .button {
+    padding: 20px 0 80px;
+  }
+  body .prepare h5 {
+    font-size: 20px;
+    color: #3d9cea;
+    max-width: 400px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding: 50px 30px;
+    font-weight: 600;
+    font-family: "Fredoka", sans-serif;
+    padding-left: 150px;
+    margin-top: -100px;
+  }
+  body .prepare .sub-para {
+    font-size: 28px;
+    font-family: "Open Sans", sans-serif;
+    color: #0b375c;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f9955e;
+    padding-bottom: 20px;
+  }
+  body .prepare .paragraph {
+    font-size: 25px;
+    padding-top: 10px;
+    color: #0b375c;
+    max-width: 500px;
+  }
+  body .prepare .image {
+    padding: 100px;
+  }
+  body .prepare .box {
+    position: absolute;
+    left: 18%;
+  }
+  body .prepare .box img {
+    height: 50px;
+  }
+  body .prepare .box-2 {
+    position: absolute;
+    right: 20%;
+    bottom: 43%;
+  }
+  body .dog-food {
+    background-image: url("../images/dog-theme.png");
+    padding: 70px 0;
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+    background-size: cover;
+  }
+  body .dog-food .img-box img {
+    height: 150px;
+  }
+  body .dog-food p {
+    font-size: 28px;
+    font-family: "Fredoka", sans-serif;
+    max-width: 700px;
+    padding: 20px 0;
+    color: #0b375c;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  body .footer {
+    background-color: #eaf6ff;
+    padding: 80px 0 10px;
+  }
+  body .footer .footer-data {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  body .footer .second-section {
+    padding: 100px 0 50px;
+  }
+  body .footer h1 {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    color: #1f262f;
+    font-weight: 700;
+  }
+  body .footer .para {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    color: #1f262f;
+    max-width: 400px;
+    font-weight: 700;
+    padding-bottom: 50px;
+  }
+  body .footer .img-box img {
+    height: 80px;
+  }
+  body .footer h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: #1f262f;
+    text-align: right;
+  }
+  body .footer .column {
+    margin-bottom: 0;
+    font-size: 17px;
+    color: #1f262f;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+  }
+}
+@media (max-width: 1439px) and (min-width: 1024px) {
+  body .navbar {
+    color: transparent;
+    padding: 30px 80px;
+    position: fixed;
+    width: 100%;
+  }
+  body .navbar .navbar-brand img {
+    height: 80px;
+  }
+  body .navbar .nav-link {
+    font-size: 20px;
+    color: #0b375c;
+    font-weight: 800;
+  }
+  body .navbar .nav-item {
+    padding: 0 20px;
+  }
+  body .banner {
+    background-image: url("../images/banner.png");
+    padding: 200px 0 70px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color: #c5dbed;
+  }
+  body .banner .text {
+    padding-top: 0;
+  }
+  body .banner span {
+    font-size: 80px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: -20px;
+  }
+  body .banner h2 {
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #0b375c;
+  }
+  body .banner h1 {
+    margin-top: -30px;
+    font-size: 110px;
+    font-family: "Bebas Neue", sans-serif;
+    max-width: 400px;
+    line-height: 100px;
+    color: #0b375c;
+  }
+  body .banner h3 {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    max-width: 250px;
+    line-height: 30px;
+    color: #0b375c;
+    font-weight: 700;
+    padding-bottom: 20px;
+    margin: 0;
+  }
+  body .banner p {
+    font-size: 15px;
+    color: #0b375c;
+    max-width: 400px;
+    font-weight: 700;
+    line-height: 20px;
+    font-family: "Open Sans", sans-serif;
+  }
+  body .banner .see {
+    font-size: 18px;
+    color: white;
+    background-color: #186cb1;
+    text-decoration: none;
+    padding: 2px 20px;
+    border-radius: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+  }
+  body .banner .button {
+    padding: 10px 0 0;
+  }
+  body .we-made {
+    background-color: #eaf6ff;
+    padding: 40px 0;
+  }
+  body .we-made h1 {
+    font-size: 40px;
+    font-family: "Fredoka", sans-serif;
+    color: #0b375c;
+    max-width: 240px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 50px;
+    margin-top: 20px;
+  }
+  body .we-made h4 {
+    color: #f9955e;
+    font-family: myFont;
+    font-size: 20px;
+    max-width: 500px;
+    padding-top: 50px;
+    text-transform: uppercase;
+  }
+  body .we-made h3 {
+    font-size: 28px;
+    color: #0b375c;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 20px 0 30px;
+    border-bottom: 2px solid #f9955e;
+  }
+  body .we-made p {
+    color: #0b375c;
+    font-size: 20px;
+    padding: 20px 0;
+    font-family: myFont;
+    line-height: 30px;
+    max-width: 500px;
+  }
+  body .theme {
+    background-image: url("../images/see-more.png");
+    padding: 70px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #eaf6ff;
+  }
+  body .theme h1 {
+    font-size: 50px;
+    color: #0b375c;
+    max-width: 500px;
+    font-family: "Bebas Neue", sans-serif;
+    line-height: 50px;
+    padding-bottom: 10px;
+  }
+  body .theme p {
+    font-size: 15px;
+    color: #0b375c;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    max-width: 170px;
+  }
+  body .theme .see {
+    font-size: 15px;
+    color: white;
+    background-color: #186cb1;
+    text-decoration: none;
+    padding: 2px 10px;
+    border-radius: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+  }
+  body .tips {
+    background-image: url("../images/background-3.png");
+    padding: 50px 0 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  body .tips h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    max-width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #0b375c;
+    line-height: 30px;
+    padding-bottom: 60px;
+  }
+  body .tips .img-box {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  body .tips h6 {
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+    font-size: 18px;
+    color: #0b375c;
+    font-weight: 600;
+    padding-bottom: 10px;
+  }
+  body .tips p {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    color: #0b375c;
+    max-width: 300px;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 70px;
+  }
+  body .tips h2 {
+    font-size: 30px;
+    max-width: 550px;
+    font-family: "Fredoka", sans-serif;
+    color: #3d9cea;
+    font-weight: 600;
+    letter-spacing: 4px;
+    line-height: 40px;
+  }
+  body .tips .img-box-2 {
+    margin-top: -150px;
+  }
+  body .tips .img-box-2 img {
+    height: 600px;
+  }
+  body .tips .paragraph {
+    font-size: 15px;
+    color: #e88b57;
+    font-weight: 700;
+    max-width: 280px;
+    margin: auto;
+    padding-top: 10px;
+  }
+  body .tips .images {
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+  }
+  body .tips .images img {
+    height: 120px;
+  }
+  body .tips .images-1 img {
+    height: 120px;
+  }
+  body .tips .images-1 {
+    padding-right: 40px;
+  }
+  body .tips .flex {
+    display: flex;
+  }
+  body .tips .list {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  body .tips h5 {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    color: #0b375c;
+    font-weight: 700;
+    padding-bottom: 5px;
+  }
+  body .tips .list-2 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  body .tips .list-3 {
+    padding-top: 40px;
+  }
+  body .the-best {
+    background-image: url("../images/the-best-2.png");
+    padding: 50px 0;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-color: #c5dbed;
+    background-size: 600px;
+  }
+  body .the-best h3 {
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #0b375c;
+  }
+  body .the-best h1 {
+    font-size: 100px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #0b375c;
+    line-height: 100px;
+    max-width: 500px;
+    margin-top: -20px;
+  }
+  body .the-best span {
+    font-size: 100px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #0b375c;
+  }
+  body .the-best h5 {
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+    color: #0b375c;
+    font-weight: 700;
+    max-width: 350px;
+  }
+  body .the-best p {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    color: #0b375c;
+    font-weight: 700;
+    max-width: 500px;
+    padding: 30px 0;
+  }
+  body .the-best .see {
+    font-size: 15px;
+    color: white;
+    background-color: #186cb1;
+    text-decoration: none;
+    padding: 2px 10px;
+    border-radius: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+  }
+  body .the-best .text {
+    padding-left: 100px;
+  }
+  body .prepare {
+    background-color: #eaf6ff;
+    padding: 70px 0;
+    position: relative;
+  }
+  body .prepare h1 {
+    font-size: 30px;
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+    color: #3d9cea;
+    max-width: 450px;
+    font-weight: 600;
+    margin: auto;
+    padding-bottom: 50px;
+    letter-spacing: 3px;
+  }
+  body .prepare h2 {
+    font-size: 20px;
+    color: #3d9cea;
+    font-family: "Fredoka", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 20px 0;
+  }
+  body .prepare .img-para {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    max-width: 250px;
+    color: #0b375c;
+    font-weight: 700;
+    border-bottom: 2px solid #a398b4;
+    padding-bottom: 20px;
+  }
+  body .prepare .para {
+    font-size: 30px;
+    line-height: 40px;
+    max-width: 450px;
+    font-family: "Fredoka", sans-serif;
+    color: #0b375c;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  body .prepare .see {
+    font-size: 12px;
+    color: white;
+    background-color: #186cb1;
+    text-decoration: none;
+    padding: 2px 10px;
+    border-radius: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+  }
+  body .prepare .button {
+    padding: 20px 0 80px;
+  }
+  body .prepare h5 {
+    font-size: 20px;
+    color: #3d9cea;
+    max-width: 400px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding: 50px 30px;
+    font-weight: 600;
+    font-family: "Fredoka", sans-serif;
+    padding-left: 150px;
+    margin-top: -100px;
+  }
+  body .prepare .sub-para {
+    font-size: 28px;
+    font-family: "Open Sans", sans-serif;
+    color: #0b375c;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f9955e;
+    padding-bottom: 20px;
+  }
+  body .prepare .paragraph {
+    font-size: 20px;
+    padding-top: 10px;
+    color: #0b375c;
+    max-width: 500px;
+  }
+  body .prepare .image {
+    padding: 80px;
+  }
+  body .prepare .box {
+    position: absolute;
+    left: 18%;
+    bottom: 5%;
+  }
+  body .prepare .box img {
+    height: 40px;
+  }
+  body .prepare .box-2 {
+    position: absolute;
+    right: 20%;
+    bottom: 40%;
+  }
+  body .prepare .box-2 img {
+    height: 70px;
+  }
+  body .dog-food {
+    background-image: url("../images/dog-theme.png");
+    padding: 70px 0;
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+    background-size: cover;
+  }
+  body .dog-food .img-box img {
+    height: 100px;
+  }
+  body .dog-food p {
+    font-size: 20px;
+    font-family: "Fredoka", sans-serif;
+    max-width: 400px;
+    padding: 20px 0;
+    color: #0b375c;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  body .footer {
+    background-color: #eaf6ff;
+    padding: 80px 0 10px;
+  }
+  body .footer .footer-data {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  body .footer .second-section {
+    padding: 100px 0 50px;
+  }
+  body .footer h1 {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    color: #1f262f;
+    font-weight: 700;
+  }
+  body .footer .para {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    color: #1f262f;
+    max-width: 400px;
+    font-weight: 700;
+    padding-bottom: 20px;
+  }
+  body .footer .img-box img {
+    height: 80px;
+  }
+  body .footer h2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: #1f262f;
+    text-align: right;
+  }
+  body .footer .column {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #1f262f;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+  }
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  body .navbar {
+    background-color: #f9955e;
+    padding: 10px 30px;
+  }
+  body .navbar .navbar-brand img {
+    height: 70px;
+  }
+  body .navbar .nav-link {
+    font-size: 20px;
+    color: #0b375c;
+    font-weight: 800;
+  }
+  body .navbar .nav-item {
+    padding: 0 50px;
+  }
+  body .navbar .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+  }
+  body .banner {
+    background-image: url("../images/banner.png");
+    padding: 150px 0 70px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color: #c5dbed;
+    background-size: 700px;
+  }
+  body .banner .text {
+    padding-top: 0;
+  }
+  body .banner span {
+    font-size: 80px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: -20px;
+  }
+  body .banner h2 {
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #0b375c;
+  }
+  body .banner h1 {
+    margin-top: 0;
+    font-size: 70px;
+    font-family: "Bebas Neue", sans-serif;
+    max-width: 300px;
+    line-height: 60px;
+    color: #0b375c;
+  }
+  body .banner h3 {
+    font-size: 23px;
+    font-family: "Open Sans", sans-serif;
+    max-width: 280px;
+    line-height: 30px;
+    color: #0b375c;
+    font-weight: 700;
+    padding-bottom: 20px;
+    margin: 0;
+  }
+  body .banner p {
+    font-size: 15px;
+    color: #0b375c;
+    max-width: 400px;
+    font-weight: 700;
+    line-height: 20px;
+    font-family: "Open Sans", sans-serif;
+  }
+  body .banner .see {
+    font-size: 15px;
+    color: white;
+    background-color: #186cb1;
+    text-decoration: none;
+    padding: 2px 10px;
+    border-radius: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+  }
+  body .banner .button {
+    padding: 10px 0 0;
+  }
+  body .we-made {
+    background-color: #eaf6ff;
+    padding: 40px 0;
+  }
+  body .we-made h1 {
+    font-size: 30px;
+    font-family: "Fredoka", sans-serif;
+    color: #0b375c;
+    max-width: 240px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 30px;
+    margin-top: 20px;
+  }
+  body .we-made h4 {
+    color: #f9955e;
+    font-family: myFont;
+    font-size: 15px;
+    max-width: 500px;
+    padding-top: 50px;
+    text-transform: uppercase;
+  }
+  body .we-made h3 {
+    font-size: 22px;
+    color: #0b375c;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 20px 0 30px;
+    border-bottom: 2px solid #f9955e;
+  }
+  body .we-made p {
+    color: #0b375c;
+    font-size: 17px;
+    padding: 20px 0;
+    font-family: myFont;
+    line-height: 25px;
+    max-width: 500px;
+  }
+  body .theme {
+    background-image: url("../images/see-more.png");
+    padding: 50px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #eaf6ff;
+  }
+  body .theme h1 {
+    font-size: 40px;
+    color: #0b375c;
+    max-width: 400px;
+    font-family: "Bebas Neue", sans-serif;
+    line-height: 40px;
+    padding-bottom: 10px;
+  }
+  body .theme p {
+    font-size: 15px;
+    color: #0b375c;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    max-width: 170px;
+  }
+  body .theme .see {
+    font-size: 15px;
+    color: white;
+    background-color: #186cb1;
+    text-decoration: none;
+    padding: 2px 10px;
+    border-radius: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+  }
+  body .tips {
+    background-image: url("../images/background-3.png");
+    padding: 50px 0 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  body .tips h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    max-width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #0b375c;
+    line-height: 30px;
+    padding-bottom: 30px;
+  }
+  body .tips .img-box {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  body .tips .img-box img {
+    height: 80px;
+  }
+  body .tips h6 {
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+    font-size: 15px;
+    color: #0b375c;
+    font-weight: 600;
+    padding-bottom: 5px;
+  }
+  body .tips p {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    color: #0b375c;
+    max-width: 200px;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 70px;
+  }
+  body .tips h2 {
+    font-size: 30px;
+    max-width: 550px;
+    font-family: "Fredoka", sans-serif;
+    color: #3d9cea;
+    font-weight: 600;
+    letter-spacing: 4px;
+    line-height: 40px;
+  }
+  body .tips .img-box-2 {
+    margin-top: -50px;
+  }
+  body .tips .img-box-2 img {
+    height: 400px;
+  }
+  body .tips .paragraph {
+    font-size: 12px;
+    color: #e88b57;
+    font-weight: 700;
+    max-width: 200px;
+    margin: auto;
+    padding-top: 10px;
+  }
+  body .tips .images {
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+  }
+  body .tips .images img {
+    height: 120px;
+  }
+  body .tips .images-1 img {
+    height: 120px;
+  }
+  body .tips .images-1 {
+    padding-right: 40px;
+  }
+  body .tips .flex {
+    display: flex;
+  }
+  body .tips .list {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  body .tips h5 {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    color: #0b375c;
+    font-weight: 700;
+    padding-bottom: 5px;
+  }
+  body .tips .list-2 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  body .tips .list-3 {
+    padding-top: 40px;
+  }
+  body .the-best {
+    background-image: url("../images/the-best-2.png");
+    padding: 20px 0 50px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-color: #c5dbed;
+    background-size: 370px;
+  }
+  body .the-best h3 {
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #0b375c;
+  }
+  body .the-best h1 {
+    font-size: 60px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #0b375c;
+    line-height: 60px;
+    max-width: 250px;
+    margin-top: -20px;
+  }
+  body .the-best span {
+    font-size: 70px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #0b375c;
+  }
+  body .the-best h5 {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    color: #0b375c;
+    font-weight: 700;
+    max-width: 350px;
+  }
+  body .the-best p {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    color: #0b375c;
+    font-weight: 700;
+    max-width: 500px;
+    padding: 0;
+    line-height: 20px;
+  }
+  body .the-best .see {
+    font-size: 15px;
+    color: white;
+    background-color: #186cb1;
+    text-decoration: none;
+    padding: 2px 10px;
+    border-radius: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+  }
+  body .the-best .text {
+    padding-left: 30px;
+  }
+  body .prepare {
+    background-color: #eaf6ff;
+    padding: 70px 0;
+    position: relative;
+  }
+  body .prepare h1 {
+    font-size: 25px;
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+    color: #3d9cea;
+    max-width: 350px;
+    font-weight: 600;
+    margin: auto;
+    padding-bottom: 50px;
+    letter-spacing: 3px;
+  }
+  body .prepare h2 {
+    font-size: 20px;
+    color: #3d9cea;
+    font-family: "Fredoka", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 20px 0;
+  }
+  body .prepare .img-para {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    max-width: 250px;
+    color: #0b375c;
+    font-weight: 700;
+    border-bottom: 2px solid #a398b4;
+    padding-bottom: 20px;
+  }
+  body .prepare .para {
+    font-size: 25px;
+    line-height: 30px;
+    max-width: 450px;
+    font-family: "Fredoka", sans-serif;
+    color: #0b375c;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  body .prepare .see {
+    font-size: 12px;
+    color: white;
+    background-color: #186cb1;
+    text-decoration: none;
+    padding: 2px 10px;
+    border-radius: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+  }
+  body .prepare .button {
+    padding: 20px 0 80px;
+  }
+  body .prepare h5 {
+    font-size: 20px;
+    color: #3d9cea;
+    max-width: 400px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding: 50px 30px;
+    font-weight: 600;
+    font-family: "Fredoka", sans-serif;
+    padding-left: 50px;
+    margin-top: -20px;
+  }
+  body .prepare .sub-para {
+    font-size: 22px;
+    font-family: "Open Sans", sans-serif;
+    color: #0b375c;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f9955e;
+    padding-bottom: 20px;
+  }
+  body .prepare .paragraph {
+    font-size: 20px;
+    padding-top: 10px;
+    color: #0b375c;
+    max-width: 500px;
+  }
+  body .prepare .image {
+    padding: 20px;
+  }
+  body .prepare .box {
+    position: absolute;
+    left: 18%;
+    bottom: 5%;
+  }
+  body .prepare .box img {
+    height: 40px;
+  }
+  body .prepare .box-2 {
+    position: absolute;
+    right: 20%;
+    bottom: 48%;
+  }
+  body .prepare .box-2 img {
+    height: 50px;
+  }
+  body .prepare .img-box img {
+    height: 150px;
+  }
+  body .dog-food {
+    background-image: url("../images/dog-theme.png");
+    padding: 50px 0;
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+    background-size: cover;
+  }
+  body .dog-food .img-box img {
+    height: 80px;
+  }
+  body .dog-food p {
+    font-size: 18px;
+    font-family: "Fredoka", sans-serif;
+    max-width: 350px;
+    padding: 20px 0;
+    color: #0b375c;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  body .footer {
+    background-color: #eaf6ff;
+    padding: 50px 0 10px;
+  }
+  body .footer .footer-data {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  body .footer .second-section {
+    padding: 50px 0 50px;
+  }
+  body .footer h1 {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    color: #1f262f;
+    font-weight: 700;
+  }
+  body .footer .para {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    color: #1f262f;
+    max-width: 250px;
+    font-weight: 700;
+    padding-bottom: 20px;
+  }
+  body .footer .img-box img {
+    height: 40px;
+  }
+  body .footer h2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: #1f262f;
+    text-align: right;
+  }
+  body .footer .column {
+    margin-bottom: 0;
+    font-size: 12px;
+    color: #1f262f;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+  }
+}
+@media (max-width: 767px) and (min-width: 425px) {
+  body .navbar {
+    background-color: #f9955e;
+    padding: 10px 0;
+  }
+  body .navbar .navbar-brand img {
+    height: 60px;
+  }
+  body .navbar .nav-link {
+    font-size: 20px;
+    color: #0b375c;
+    font-weight: 800;
+  }
+  body .navbar .nav-item {
+    padding: 0 50px;
+  }
+  body .navbar .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+  }
+  body .navbar .navbar-toggler-icon img {
+    height: 20px;
+  }
+  body .banner {
+    background-image: url("../images/banner.png");
+    padding: 100px 0 70px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color: #c5dbed;
+    background-size: 300px;
+  }
+  body .banner .text {
+    padding-top: 0;
+    text-align: center;
+    margin: auto;
+  }
+  body .banner span {
+    font-size: 80px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: -20px;
+  }
+  body .banner h2 {
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #0b375c;
+    margin: auto;
+  }
+  body .banner h1 {
+    margin-top: 0;
+    font-size: 70px;
+    font-family: "Bebas Neue", sans-serif;
+    max-width: 300px;
+    line-height: 60px;
+    color: #0b375c;
+    margin: auto;
+  }
+  body .banner h3 {
+    font-size: 23px;
+    font-family: "Open Sans", sans-serif;
+    max-width: 280px;
+    line-height: 30px;
+    color: #0b375c;
+    font-weight: 700;
+    padding-bottom: 20px;
+    margin: 0;
+    margin: auto;
+  }
+  body .banner p {
+    font-size: 15px;
+    color: #0b375c;
+    max-width: 400px;
+    font-weight: 700;
+    line-height: 20px;
+    font-family: "Open Sans", sans-serif;
+  }
+  body .banner .see {
+    font-size: 15px;
+    color: white;
+    background-color: #186cb1;
+    text-decoration: none;
+    padding: 2px 10px;
+    border-radius: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+  }
+  body .banner .button {
+    padding: 10px 0 0;
+  }
+  body .we-made {
+    background-color: #eaf6ff;
+    padding: 20px 0;
+  }
+  body .we-made h1 {
+    font-size: 25px;
+    font-family: "Fredoka", sans-serif;
+    color: #0b375c;
+    max-width: 240px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin: auto;
+    text-align: center;
+  }
+  body .we-made h4 {
+    color: #f9955e;
+    font-family: myFont;
+    font-size: 12px;
+    max-width: 200px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    margin: auto;
+    text-align: center;
+  }
+  body .we-made h3 {
+    font-size: 22px;
+    color: #0b375c;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 20px 0 10px;
+    border-bottom: 2px solid #f9955e;
+    margin: auto;
+    text-align: center;
+  }
+  body .we-made p {
+    color: #0b375c;
+    font-size: 17px;
+    padding: 20px 0;
+    font-family: myFont;
+    line-height: 20px;
+    max-width: 500px;
+    text-align: center;
+  }
+  body .theme {
+    background-image: url("../images/see-more.png");
+    padding: 20px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #eaf6ff;
+  }
+  body .theme h1 {
+    font-size: 30px;
+    color: #0b375c;
+    max-width: 300px;
+    font-family: "Bebas Neue", sans-serif;
+    line-height: 30px;
+    padding-bottom: 10px;
+  }
+  body .theme p {
+    font-size: 15px;
+    color: #0b375c;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    max-width: 170px;
+  }
+  body .theme .see {
+    font-size: 15px;
+    color: white;
+    background-color: #186cb1;
+    text-decoration: none;
+    padding: 2px 10px;
+    border-radius: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+  }
+  body .tips {
+    background-image: url("../images/background-3.png");
+    padding: 50px 0 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  body .tips h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    max-width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #0b375c;
+    line-height: 30px;
+    padding-bottom: 30px;
+  }
+  body .tips .img-box {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  body .tips .img-box img {
+    height: 80px;
+  }
+  body .tips h6 {
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+    font-size: 15px;
+    color: #0b375c;
+    font-weight: 600;
+    padding-bottom: 5px;
+  }
+  body .tips p {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    color: #0b375c;
+    max-width: 200px;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  body .tips h2 {
+    font-size: 30px;
+    max-width: 550px;
+    font-family: "Fredoka", sans-serif;
+    color: #3d9cea;
+    font-weight: 600;
+    letter-spacing: 4px;
+    line-height: 30px;
+    text-align: center;
+  }
+  body .tips .img-box-2 {
+    justify-content: center;
+    margin-top: -10px;
+    display: flex;
+  }
+  body .tips .img-box-2 img {
+    height: 400px;
+  }
+  body .tips .paragraph {
+    font-size: 12px;
+    color: #e88b57;
+    font-weight: 700;
+    max-width: 200px;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+  }
+  body .tips .images {
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  body .tips .images img {
+    height: 80px;
+  }
+  body .tips .images-1 img {
+    height: 80px;
+  }
+  body .tips .images-1 {
+    padding-right: 40px;
+  }
+  body .tips .flex {
+    display: flex;
+    justify-content: center;
+  }
+  body .tips .list {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  body .tips h5 {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    color: #0b375c;
+    font-weight: 700;
+    padding-bottom: 5px;
+  }
+  body .tips .list-2 {
+    padding-bottom: 10px;
+    padding-top: 0px;
+  }
+  body .tips .list-3 {
+    padding-top: 10px;
+  }
+  body .the-best {
+    background-image: url("../images/the-best-2.png");
+    padding: 20px 0 50px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-color: #c5dbed;
+    background-size: 100px;
+  }
+  body .the-best h3 {
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #0b375c;
+    text-align: center;
+  }
+  body .the-best h1 {
+    font-size: 60px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #0b375c;
+    line-height: 60px;
+    max-width: 250px;
+    margin-top: -20px;
+    text-align: center;
+    margin: auto;
+  }
+  body .the-best span {
+    font-size: 70px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #0b375c;
+  }
+  body .the-best h5 {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    color: #0b375c;
+    font-weight: 700;
+    max-width: 350px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  body .the-best p {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    color: #0b375c;
+    font-weight: 700;
+    max-width: 500px;
+    padding: 0;
+    line-height: 15px;
+    text-align: center;
+  }
+  body .the-best .see {
+    font-size: 15px;
+    color: white;
+    background-color: #186cb1;
+    text-decoration: none;
+    padding: 2px 10px;
+    border-radius: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+  }
+  body .the-best .button {
+    display: flex;
+    justify-content: center;
+  }
+  body .the-best .text {
+    padding-left: 0;
+  }
+  body .prepare {
+    background-color: #eaf6ff;
+    padding: 40px 0;
+    position: relative;
+  }
+  body .prepare h1 {
+    font-size: 25px;
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+    color: #3d9cea;
+    max-width: 350px;
+    font-weight: 600;
+    margin: auto;
+    padding-bottom: 50px;
+    letter-spacing: 3px;
+  }
+  body .prepare h2 {
+    font-size: 20px;
+    color: #3d9cea;
+    font-family: "Fredoka", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0;
+    text-align: center;
+  }
+  body .prepare .img-para {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    max-width: 250px;
+    color: #0b375c;
+    font-weight: 700;
+    border-bottom: 2px solid #a398b4;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: auto;
+  }
+  body .prepare .para {
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 450px;
+    font-family: "Fredoka", sans-serif;
+    color: #0b375c;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  body .prepare .see {
+    font-size: 12px;
+    color: white;
+    background-color: #186cb1;
+    text-decoration: none;
+    padding: 2px 10px;
+    border-radius: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+  }
+  body .prepare .button {
+    padding: 20px 0 20px;
+    display: flex;
+    justify-content: center;
+  }
+  body .prepare h5 {
+    font-size: 20px;
+    color: #3d9cea;
+    max-width: 400px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-weight: 600;
+    font-family: "Fredoka", sans-serif;
+    padding-left: 50px;
+    margin-top: 0px;
+  }
+  body .prepare .sub-para {
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    color: #0b375c;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f9955e;
+    padding-bottom: 10px;
+    text-align: center;
+    margin: auto;
+  }
+  body .prepare .paragraph {
+    font-size: 18px;
+    padding-top: 10px;
+    color: #0b375c;
+    max-width: 500px;
+    text-align: center;
+    line-height: 30px;
+  }
+  body .prepare .image {
+    padding: 20px;
+  }
+  body .prepare .box {
+    position: absolute;
+    left: 18%;
+    bottom: 5%;
+    display: none;
+  }
+  body .prepare .box img {
+    height: 40px;
+  }
+  body .prepare .box-2 {
+    position: absolute;
+    right: 20%;
+    bottom: 35%;
+  }
+  body .prepare .box-2 img {
+    height: 50px;
+  }
+  body .prepare .img-box img {
+    height: 150px;
+  }
+  body .prepare .img-box {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+  body .dog-food {
+    background-image: url("../images/dog-theme.png");
+    padding: 40px 0;
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+    background-size: cover;
+  }
+  body .dog-food .img-box img {
+    height: 50px;
+  }
+  body .dog-food .img-box {
+    display: flex;
+    justify-content: center;
+  }
+  body .dog-food p {
+    font-size: 15px;
+    font-family: "Fredoka", sans-serif;
+    max-width: 300px;
+    padding: 20px 0;
+    color: #0b375c;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+  }
+  body .footer {
+    background-color: #eaf6ff;
+    padding: 10px 0;
+  }
+  body .footer .footer-data {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  body .footer .second-section {
+    padding: 50px 0 0;
+  }
+  body .footer h1 {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    color: #1f262f;
+    font-weight: 700;
+    text-align: center;
+  }
+  body .footer .para {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    color: #1f262f;
+    max-width: 250px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: auto;
+  }
+  body .footer .img-box img {
+    height: 40px;
+  }
+  body .footer .img-box {
+    display: flex;
+    justify-content: center;
+  }
+  body .footer h2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: #1f262f;
+    text-align: right;
+  }
+  body .footer .column {
+    margin-bottom: 0;
+    font-size: 12px;
+    color: #1f262f;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+  }
+}
+@media (max-width: 424px) {
+  body .navbar {
+    background-color: #f9955e;
+    padding: 5px 0;
+  }
+  body .navbar .navbar-brand img {
+    height: 40px;
+  }
+  body .navbar .nav-link {
+    font-size: 20px;
+    color: #0b375c;
+    font-weight: 800;
+  }
+  body .navbar .nav-item {
+    padding: 0 50px;
+  }
+  body .navbar .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+  }
+  body .navbar .navbar-toggler-icon img {
+    height: 15px;
+  }
+  body .banner {
+    background-image: url("../images/banner.png");
+    padding: 100px 0 50px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color: #c5dbed;
+    background-size: 300px;
+  }
+  body .banner .text {
+    padding-top: 0;
+    text-align: center;
+    margin: auto;
+  }
+  body .banner span {
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 0;
+  }
+  body .banner h2 {
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #0b375c;
+    margin: auto;
+    padding-bottom: 10px;
+  }
+  body .banner h1 {
+    margin-top: 0;
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    max-width: 150px;
+    line-height: 30px;
+    color: #0b375c;
+    margin: auto;
+  }
+  body .banner h3 {
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    max-width: 280px;
+    line-height: 30px;
+    color: #0b375c;
+    font-weight: 700;
+    padding-bottom: 20px;
+    margin: 0;
+    margin: auto;
+  }
+  body .banner p {
+    font-size: 15px;
+    color: #0b375c;
+    max-width: 400px;
+    font-weight: 700;
+    line-height: 20px;
+    font-family: "Open Sans", sans-serif;
+  }
+  body .banner .see {
+    font-size: 15px;
+    color: white;
+    background-color: #186cb1;
+    text-decoration: none;
+    padding: 2px 10px;
+    border-radius: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+  }
+  body .banner .button {
+    padding: 10px 0 0;
+  }
+  body .we-made {
+    background-color: #eaf6ff;
+    padding: 20px 0;
+  }
+  body .we-made h1 {
+    font-size: 25px;
+    font-family: "Fredoka", sans-serif;
+    color: #0b375c;
+    max-width: 240px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin: auto;
+    text-align: center;
+  }
+  body .we-made h4 {
+    color: #f9955e;
+    font-family: myFont;
+    font-size: 12px;
+    max-width: 200px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    margin: auto;
+    text-align: center;
+  }
+  body .we-made h3 {
+    font-size: 22px;
+    color: #0b375c;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 20px 0 10px;
+    border-bottom: 2px solid #f9955e;
+    margin: auto;
+    text-align: center;
+  }
+  body .we-made p {
+    color: #0b375c;
+    font-size: 17px;
+    padding: 20px 0;
+    font-family: myFont;
+    line-height: 20px;
+    max-width: 500px;
+    text-align: center;
+  }
+  body .theme {
+    background-image: url("../images/see-more.png");
+    padding: 20px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #eaf6ff;
+  }
+  body .theme h1 {
+    font-size: 30px;
+    color: #0b375c;
+    max-width: 300px;
+    font-family: "Bebas Neue", sans-serif;
+    line-height: 30px;
+    padding-bottom: 10px;
+  }
+  body .theme p {
+    font-size: 15px;
+    color: #0b375c;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    max-width: 170px;
+  }
+  body .theme .see {
+    font-size: 15px;
+    color: white;
+    background-color: #186cb1;
+    text-decoration: none;
+    padding: 2px 10px;
+    border-radius: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+  }
+  body .tips {
+    background-image: url("../images/background-3.png");
+    padding: 50px 0 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  body .tips h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    max-width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #0b375c;
+    line-height: 30px;
+    padding-bottom: 30px;
+  }
+  body .tips .img-box {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  body .tips .img-box img {
+    height: 80px;
+  }
+  body .tips h6 {
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+    font-size: 15px;
+    color: #0b375c;
+    font-weight: 600;
+    padding-bottom: 5px;
+  }
+  body .tips p {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    color: #0b375c;
+    max-width: 200px;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  body .tips h2 {
+    font-size: 20px;
+    max-width: 550px;
+    font-family: "Fredoka", sans-serif;
+    color: #3d9cea;
+    font-weight: 600;
+    letter-spacing: 4px;
+    line-height: 20px;
+    text-align: center;
+  }
+  body .tips .img-box-2 {
+    justify-content: center;
+    margin-top: -10px;
+    display: flex;
+  }
+  body .tips .img-box-2 img {
+    height: 400px;
+  }
+  body .tips .paragraph {
+    font-size: 12px;
+    color: #e88b57;
+    font-weight: 700;
+    max-width: 200px;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+  }
+  body .tips .images {
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  body .tips .images img {
+    height: 80px;
+  }
+  body .tips .images-1 img {
+    height: 80px;
+  }
+  body .tips .images-1 {
+    padding-right: 40px;
+  }
+  body .tips .flex {
+    display: flex;
+    justify-content: center;
+  }
+  body .tips .list {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  body .tips h5 {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    color: #0b375c;
+    font-weight: 700;
+    padding-bottom: 5px;
+  }
+  body .tips .list-2 {
+    padding-bottom: 10px;
+    padding-top: 0px;
+  }
+  body .tips .list-3 {
+    padding-top: 10px;
+  }
+  body .the-best {
+    background-image: url("../images/the-best-2.png");
+    padding: 20px 0 50px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-color: #c5dbed;
+    background-size: 100px;
+  }
+  body .the-best h3 {
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #0b375c;
+    text-align: center;
+  }
+  body .the-best h1 {
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #0b375c;
+    line-height: 40px;
+    max-width: 150px;
+    margin-top: -20px;
+    text-align: center;
+    margin: auto;
+  }
+  body .the-best span {
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #0b375c;
+  }
+  body .the-best h5 {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    color: #0b375c;
+    font-weight: 700;
+    max-width: 350px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  body .the-best p {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    color: #0b375c;
+    font-weight: 700;
+    max-width: 500px;
+    padding: 0;
+    line-height: 15px;
+    text-align: center;
+  }
+  body .the-best .see {
+    font-size: 10px;
+    color: white;
+    background-color: #186cb1;
+    text-decoration: none;
+    padding: 2px 10px;
+    border-radius: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+  }
+  body .the-best .button {
+    display: flex;
+    justify-content: center;
+  }
+  body .the-best .text {
+    padding-left: 0;
+  }
+  body .prepare {
+    background-color: #eaf6ff;
+    padding: 40px 0;
+    position: relative;
+  }
+  body .prepare h1 {
+    font-size: 25px;
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+    color: #3d9cea;
+    max-width: 350px;
+    font-weight: 600;
+    margin: auto;
+    padding-bottom: 50px;
+    letter-spacing: 3px;
+  }
+  body .prepare h2 {
+    font-size: 20px;
+    color: #3d9cea;
+    font-family: "Fredoka", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0;
+    text-align: center;
+  }
+  body .prepare .img-para {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    max-width: 250px;
+    color: #0b375c;
+    font-weight: 700;
+    border-bottom: 2px solid #a398b4;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: auto;
+  }
+  body .prepare .para {
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 450px;
+    font-family: "Fredoka", sans-serif;
+    color: #0b375c;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  body .prepare .see {
+    font-size: 12px;
+    color: white;
+    background-color: #186cb1;
+    text-decoration: none;
+    padding: 2px 10px;
+    border-radius: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+  }
+  body .prepare .button {
+    padding: 20px 0 20px;
+    display: flex;
+    justify-content: center;
+  }
+  body .prepare h5 {
+    font-size: 20px;
+    color: #3d9cea;
+    max-width: 400px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-weight: 600;
+    font-family: "Fredoka", sans-serif;
+    padding-left: 50px;
+    margin-top: 0px;
+  }
+  body .prepare .sub-para {
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    color: #0b375c;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f9955e;
+    padding-bottom: 10px;
+    text-align: center;
+    margin: auto;
+  }
+  body .prepare .paragraph {
+    font-size: 18px;
+    padding-top: 10px;
+    color: #0b375c;
+    max-width: 500px;
+    text-align: center;
+    line-height: 30px;
+  }
+  body .prepare .image {
+    padding: 20px;
+  }
+  body .prepare .box {
+    position: absolute;
+    left: 18%;
+    bottom: 5%;
+    display: none;
+  }
+  body .prepare .box img {
+    height: 40px;
+  }
+  body .prepare .box-2 {
+    position: absolute;
+    right: 20%;
+    bottom: 35%;
+  }
+  body .prepare .box-2 img {
+    height: 50px;
+  }
+  body .prepare .img-box img {
+    height: 150px;
+  }
+  body .prepare .img-box {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+  body .dog-food {
+    background-image: url("../images/dog-theme.png");
+    padding: 40px 0;
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+    background-size: cover;
+  }
+  body .dog-food .img-box img {
+    height: 50px;
+  }
+  body .dog-food .img-box {
+    display: flex;
+    justify-content: center;
+  }
+  body .dog-food p {
+    font-size: 15px;
+    font-family: "Fredoka", sans-serif;
+    max-width: 300px;
+    padding: 20px 0;
+    color: #0b375c;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+  }
+  body .footer {
+    background-color: #eaf6ff;
+    padding: 10px 0;
+  }
+  body .footer .footer-data {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  body .footer .second-section {
+    padding: 50px 0 0;
+  }
+  body .footer h1 {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    color: #1f262f;
+    font-weight: 700;
+    text-align: center;
+  }
+  body .footer .para {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    color: #1f262f;
+    max-width: 250px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: auto;
+  }
+  body .footer .img-box img {
+    height: 40px;
+  }
+  body .footer .img-box {
+    display: flex;
+    justify-content: center;
+  }
+  body .footer h2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: #1f262f;
+    text-align: right;
+  }
+  body .footer .column {
+    margin-bottom: 0;
+    font-size: 12px;
+    color: #1f262f;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+  }
+}/*# sourceMappingURL=style.css.map */
